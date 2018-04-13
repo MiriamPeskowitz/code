@@ -1,0 +1,56 @@
+ 
+ 	<form action="/trails" method="POST">
+ 		<div>
+	 		<label for="trail_title">TITLE</label>
+ 			<div>
+ 				<input type="text" name="trail[title" placeholder=
+ 			title><br>
+ 			</div>
+ 		</div>
+
+		<div>
+	 		<label for="trail_title">Description</label>
+ 			<div>
+ 				<input type="text" name="trail[title" placeholder=
+ 			title><br>
+ 			</div>
+ 		</div>
+
+		<div>
+	 		<label for="trail_title">URL</label>
+ 			<div>
+ 				<input type="text" name="trail[title" placeholder=
+ 			title><br>
+ 			</div>
+ 		</div>
+
+ 		<div>
+	 		<label for="trail_title"> LENGTH</label>
+ 			<div>
+ 				<input type="text" name="trail[title" placeholder=
+ 			title><br>
+ 			</div>
+ 		</div>
+
+ 		<div>
+	 		<label for="trail_title">difficulty </label>
+ 			<div>
+ 				<input type="text" name="trail[title" placeholder=
+ 			title><br>
+ 			<div>
+ 			<% Trail.difficulties.each do |key, value| 
+ 			option: value="<$= value %>"<%key%>
+GOT LOST HERE, ask him for his code  			
+
+ 			</div>
+ 				select name="trail difficulty "><
+
+
+ 			</div>
+ 		</div>
+
+ 		<label>name</label>
+ 		<input type="text"><br>	
+ 	</form>
+ 
+ 	

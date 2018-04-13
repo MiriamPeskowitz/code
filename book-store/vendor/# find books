@@ -1,0 +1,12 @@
+# find books
+# create a category of horror 
+# relate the category of horror to the existing books that have an author called Stephen King. 
+
+
+def add_category_to_authors_books(category_title, author_name)	
+	author = Author.find_by(name: "Stephen King")
+	category = Category.find_or_create_by(title: category_title)
+	author.books.each do |book|
+		book.categories << category unless book.categories.include? (category)
+	end 
+end
